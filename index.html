@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Convite do Miguel - 11 anos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
       margin: 0;
@@ -22,6 +24,7 @@
     .convite {
       background-color: rgba(0, 0, 0, 0.8);
       max-width: 600px;
+      width: 100%;
       border-radius: 20px;
       text-align: center;
       padding: 30px 20px;
@@ -29,8 +32,8 @@
     }
 
     .foto {
-      width: 160px;
-      height: 160px;
+      width: 200px;
+      height: 200px;
       border-radius: 50%;
       border: 5px solid #8FF221;
       object-fit: cover;
@@ -38,46 +41,46 @@
     }
 
     h1 {
-      font-size: 36px;
+      font-size: 40px;
       margin: 10px 0 5px;
       font-weight: bold;
     }
 
     h2 {
-      font-size: 22px;
+      font-size: 26px;
       margin: 0 0 20px;
-      color: #ffffff;
     }
 
     .convocado {
-      font-size: 18px;
+      font-size: 20px;
       margin-bottom: 25px;
     }
 
     .destaque {
-      font-size: 24px;
+      font-size: 26px;
       color: #ffffff;
       font-weight: bold;
       display: block;
-      margin-bottom: 20px;
+      margin-bottom: 15px;
     }
 
     .mensagem {
-      display: block;
       color: #b7ff6b;
-      font-size: 18px;
+      font-size: 20px;
     }
 
     .info {
       display: flex;
       justify-content: space-around;
-      font-size: 18px;
+      font-size: 20px;
       margin-bottom: 20px;
+      flex-wrap: wrap;
+      gap: 10px;
     }
 
     .info div strong {
       display: block;
-      font-size: 24px;
+      font-size: 26px;
       color: #ffffff;
     }
 
@@ -93,6 +96,8 @@
     iframe {
       margin-top: 15px;
       border-radius: 10px;
+      width: 100%;
+      max-width: 100%;
     }
 
     .local-icon {
@@ -100,14 +105,44 @@
       vertical-align: middle;
       margin-right: 5px;
     }
+
+    @media (max-width: 480px) {
+      .foto {
+        width: 150px;
+        height: 150px;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      .convocado,
+      .mensagem,
+      .info {
+        font-size: 18px;
+      }
+
+      .info div strong {
+        font-size: 22px;
+      }
+
+      iframe {
+        height: 400px;
+      }
+    }
   </style>
+
   <!-- Meta para compartilhamento no WhatsApp / redes -->
-<meta property="og:title" content="Convite de Aniversário do Miguel - 11 anos 🎉" />
-<meta property="og:description" content="Você está convocado! Vista a camisa do seu time e venha comemorar com a gente. ⚽🎂" />
-<meta property="og:image" content="https://marianafausto.github.io/Convite/miguel.png" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://marianafausto.github.io/Convite/" />
-  <link rel="icon" href="miguel.png" type="image/png">
+  <meta property="og:title" content="Convite de Aniversário do Miguel - 11 anos 🎉" />
+  <meta property="og:description" content="Você está convocado! Vista a camisa do seu time e venha comemorar com a gente. ⚽🎂" />
+  <meta property="og:image" content="https://marianafausto.github.io/Convite/miguel.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://marianafausto.github.io/Convite/" />
+  <link rel="icon" href="miguel.png" type="image/png" sizes="192x192">
 </head>
 <body>
   <div class="convite">
@@ -130,14 +165,16 @@
         <span>HORA</span>
       </div>
     </div>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSecUl7-FtqD7aHLV_-DRhBOUt7spktWvChgthCfE6XFwSZ3JA/viewform?embedded=true" width="550" height="550" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSecUl7-FtqD7aHLV_-DRhBOUt7spktWvChgthCfE6XFwSZ3JA/viewform?embedded=true" height="550" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+
     <div class="endereco">
-      <span class="local-icon"></span>
+      <span class="local-icon">📍</span>
       R. Mitsuharu Matsushita, 50 -<br>
       Chácara Estância Paulista, Suzano
 
       <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.7033162188886!2d-46.314319324669476!3d-23.579096678787643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce70e584bf685d%3A0xa196bf4ac3d415ad!2sR.%20Mitsuharu%20Matsushita%2C%2050%20-%20Ch%C3%A1cara%20Est%C3%A2ncia%20Paulista%2C%20Suzano%20-%20SP%2C%2008653-015!5e0!3m2!1spt-BR!2sbr!4v1751579213814!5m2!1spt-BR!2sbr" width="550" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.7033162188886!2d-46.314319324669476!3d-23.579096678787643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce70e584bf685d%3A0xa196bf4ac3d415ad!2sR.%20Mitsuharu%20Matsushita%2C%2050%20-%20Ch%C3%A1cara%20Est%C3%A2ncia%20Paulista%2C%20Suzano%20-%20SP%2C%2008653-015!5e0!3m2!1spt-BR!2sbr!4v1751579213814!5m2!1spt-BR!2sbr" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   </div>
